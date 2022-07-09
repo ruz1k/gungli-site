@@ -1,0 +1,23 @@
+{
+    "contact": "Contacts",
+    "firstRecordCost": "Only available in Kazan.",
+    "priceService": "Price and Service",
+    "credits": "Credits",
+    "record": "Record",
+    "mastering": "Mastering",
+    "masteringInfo": "Mastering of the mastered material.",
+    "mixing": "Mixing",
+    "beats": "Beats",
+    "musicAccompaniment": "Music accompaniment",
+    "workOnStudio": "Work on studio",
+    "enroll": "Enroll",
+    "firstRecord": "First record in the studio",
+    "firstRecordText": "First recording in the studio, up to 3 hours free of charge for recording material.",
+    "recordHour": "An hour of recording work.",
+    "recordHourInfo": "Recording your material, working with the Artist. Cost varies with production work.",
+    "creatingInstrumental": "Creating instrumental.",
+    "creatingInstrumentalInfo": "We'll create an original arrangement especially for your song.",
+    "mixingMasteringCost": "175$",
+    "creatingInstrumentalCost": "150$",
+    "recordCost": "Only available in Kazan."
+}

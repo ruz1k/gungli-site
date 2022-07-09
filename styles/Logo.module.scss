@@ -1,0 +1,7 @@
+.logo {
+    & h1 {
+        max-width: min-content;
+        letter-spacing: -3px;
+        margin-bottom: 16px;
+    }
+}

@@ -1,0 +1,21 @@
+.languageSwitcher {
+    display: flex;
+    & button {
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        margin-right: 8px;
+        opacity: 0.5;
+        transition: all 0.3s ease-in-out;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            opacity: 1;
+        }
+        &.active {
+            opacity: 1 !important;
+        }
+    }
+}

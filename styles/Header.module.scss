@@ -1,0 +1,72 @@
+.appHeaderOut {
+    transform: translateY(-100%);
+    z-index: -1;
+}
+
+.appHeader {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.7);
+    margin-left: -8px;
+}
+
+.appHeaderContainer {
+    border-bottom: 1px solid #efefef;
+    padding: 18px 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    & p {
+        flex: 0 0 71%;
+    }
+    @media screen and (max-width: 1280px) and (min-width: 1024px) {
+        max-width: 1024px;
+        & p {
+            flex: 0 0 64%;
+        }
+    }
+    @media screen and (max-width: 1024px) and (min-width: 768px) {
+        max-width: 768px;
+        & p {
+            flex: 0 0 53%;
+        }
+    }
+    @media screen and (max-width: 480px) and (min-width: 360px) {
+        max-width: 360px;
+    }
+    & .headerLinksAndLang {
+        display: flex;
+        & .headerLinks {
+            margin-right: 32px;
+            white-space: nowrap;
+            & button {
+                margin-right: 32px;
+                font-size: 15px;
+                border: none;
+                background: none;
+                color: white;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    .appHeader {
+        margin-left: -4px;
+    }
+    .appHeaderContainer {
+        & p {
+            flex: 0 0 80%;
+        }
+        & .headerLinksAndLang {
+            & .headerLinks {
+                display: none;
+            }
+        }
+    }
+}

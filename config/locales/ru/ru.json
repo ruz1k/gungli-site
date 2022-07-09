@@ -1,0 +1,23 @@
+{
+    "contact": "Контакты",
+    "firstRecordCost": "Бесплатно",
+    "priceService": "Цены и услуги",
+    "credits": "Кредиты",
+    "record": "Запись",
+    "mastering": "Мастеринг",
+    "mastringInfo": "Мастеринг сведенного материала.",
+    "mixing": "Сведение",
+    "beats": "Биты",
+    "musicAccompaniment": "Музыкальное сопровождение",
+    "workOnStudio": "Работа в студии",
+    "enroll": "Записаться",
+    "firstRecord": "Первая запись на студии",
+    "firstRecordText": "Первая запись в студии, до 3 часов бесплатно для записи материала. Информация о покупке",
+    "recordHour": "Час записи работы.",
+    "recordHourInfo": "Запись Вашего материала, работа с Артистом. Стоимость варьируется при продюсерской работе.",
+    "creatingInstrumental": "Создание инструментала.",
+    "creatingInstrumentalInfo": "Создадим оригинальную минусовку специально под вашу композицию.",
+    "mixingMasteringCost": "5 000₽",
+    "creatingInstrumentalCost": "5 000₽ - 10 000₽",
+    "recordCost": "750₽ - 1 500₽"
+}

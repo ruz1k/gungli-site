@@ -1,0 +1,43 @@
+.introduce {
+    padding: 72px 0;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid;
+    margin-bottom: 48px;
+    & img {
+        object-fit: cover;
+    }
+    & p {
+        font-size: 24px;
+        max-width: 250px;
+    }
+    & .introduceLogo {
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .introduce {
+        & p {
+            max-width: 200px;
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .introduce {
+        padding: 48px 0;
+        & p {
+            max-width: 200px;
+            font-size: 18px;
+        }
+        & .introduceLogo {
+            width: 250px;
+            height: 250px;
+            bottom: 32px;
+            right: -3px;
+        }
+    }
+}
