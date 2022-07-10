@@ -7,6 +7,6 @@ type LogoProps = {
 
 export const Logo = ({ animated }: LogoProps): JSX.Element => (
     <div className={cn(styles.logo, { [styles.animated]: animated })}>
-        <h1>GUNGLI SOUND STUDIO.</h1>
+        <h1>GUNGLI SOUND STUDIO</h1>
     </div>
 );
