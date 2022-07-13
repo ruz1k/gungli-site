@@ -32,6 +32,7 @@ const Beats = () => {
                 onClick={() =>
                     window.open('https://www.beatstars.com/gunglisound')
                 }
+                className={styles.beatsButton}
             >
                 {t('checkOurBeats')}
             </button>
