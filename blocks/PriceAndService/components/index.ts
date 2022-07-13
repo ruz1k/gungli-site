@@ -1,3 +1,5 @@
 import StudioTable from './StudioTable';
+import Beats from './Beats';
+import Portfolio from './Portfolio';
 
-export { StudioTable };
+export {Portfolio, StudioTable, Beats };

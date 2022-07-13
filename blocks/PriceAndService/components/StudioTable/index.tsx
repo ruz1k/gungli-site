@@ -17,13 +17,13 @@ const StudioTable = () => {
                         <span>
                             {t('mixing')} + {t('mastering')}
                         </span>
+                        <p>{t('recordHourInfo')}</p>
                     </td>
                     <td>{t('mixingMasteringCost')}</td>
                 </tr>
                 <tr>
                     <td>
                         <span>{t('recordHour')}</span>
-                        <p>{t('recordHourInfo')}</p>
                     </td>
                     <td>{t('recordCost')}</td>
                 </tr>

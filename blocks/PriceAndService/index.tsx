@@ -3,18 +3,18 @@ import { useTranslation } from 'react-i18next';
 
 import styles from '../../styles/PriceAndService.module.scss';
 import cn from 'classnames';
-import { StudioTable } from './components';
+import { StudioTable, Beats, Portfolio } from './components';
 
 const PriceAndService = React.forwardRef<HTMLDivElement>((_, ref) => {
     const { t } = useTranslation();
 
     const [studio, setStudio] = useState(true);
     const [beats, setBeats] = useState(false);
-    const [musicAccompaniment, setMusicAccompaniment] = useState(false);
+    const [portfolio, setPortfolio] = useState(false);
 
     const studioHandler = useCallback(() => {
         setBeats(false);
-        setMusicAccompaniment(false);
+        setPortfolio(false);
         if (!studio) {
             setStudio(!studio);
         }
@@ -22,19 +22,19 @@ const PriceAndService = React.forwardRef<HTMLDivElement>((_, ref) => {
 
     const beatsHandler = useCallback(() => {
         setStudio(false);
-        setMusicAccompaniment(false);
+        setPortfolio(false);
         if (!beats) {
             setBeats(!beats);
         }
     }, [beats]);
 
-    const musicAccompanimentHandler = useCallback(() => {
+    const portfolioHandler = useCallback(() => {
         setStudio(false);
         setBeats(false);
-        if (!musicAccompaniment) {
-            setMusicAccompaniment(!musicAccompaniment);
+        if (!portfolio) {
+            setPortfolio(!portfolio);
         }
-    }, [musicAccompaniment]);
+    }, [portfolio]);
 
     return (
         <div ref={ref} className={styles.priceAndService}>
@@ -58,21 +58,21 @@ const PriceAndService = React.forwardRef<HTMLDivElement>((_, ref) => {
                 </button>
                 <button
                     className={cn({
-                        [styles.active]: musicAccompaniment,
+                        [styles.active]: portfolio,
                     })}
-                    onClick={musicAccompanimentHandler}
+                    onClick={portfolioHandler}
                 >
-                    {t('musicAccompaniment')}
+                    {t('portfolio')}
                 </button>
             </div>
             <div className={styles.priceAndServiceTable}>
                 {studio && <StudioTable />}
             </div>
             <div className={styles.priceAndServiceTable}>
-                {beats && <StudioTable />}
+                {beats && <Beats />}
             </div>
             <div className={styles.priceAndServiceTable}>
-                {musicAccompaniment && <StudioTable />}
+                {portfolio && <Portfolio />}
             </div>
         </div>
     );

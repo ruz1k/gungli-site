@@ -7,6 +7,8 @@
     "mastering": "Mastering",
     "masteringInfo": "Mastering of the mastered material.",
     "mixing": "Mixing",
+    "portfolio": "Portfolio",
+    "mixingMasteringInfo": "Bringing together your material. Just like jewelers, we grind the material, cut, polish, restore, stabilize, and bring it to a common, familiar, current, competitive sound.",
     "beats": "Beats",
     "musicAccompaniment": "Music accompaniment",
     "workOnStudio": "Work on studio",
@@ -19,5 +21,6 @@
     "creatingInstrumentalInfo": "We'll create an original arrangement especially for your song.",
     "mixingMasteringCost": "175$",
     "creatingInstrumentalCost": "150$",
-    "recordCost": "Only available in Kazan."
+    "recordCost": "Only available in Kazan.",
+    "checkOurBeats": "Check in BeatStars"
 }
