@@ -2,8 +2,10 @@
     iframe { 
         margin-bottom: 24px;
     }
-    button {
+    .beatsButton {
         padding: 8px 32px;
+        background-color: '#fff' !important;
+        color: #000 !important;
         border: none;
         display: flex;
         font-size: 20px;
