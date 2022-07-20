@@ -4,7 +4,7 @@ const Footer = () => (
     <footer>
         <ul className={styles.footerContainer}>
             <li>
-                created by <a href="https://github.com/ruz1k">ruz1k</a>.
+                created by <a href="https://github.com/ruz1k">aromanchevv</a>.
             </li>
             <li>GUNGLI SOUND STUDIO</li>
             <li>© 2022</li>
