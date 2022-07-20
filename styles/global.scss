@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
+a, body, button {
+    transition: all 0.3s ease-in-out;
+}
+
 a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
 button {
-    color: black;
+    color: #000;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background: url('../assets/img/gungli.gif') fixed center no-repeat;
     background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    transition: 0.3s all ease-in-out;
+    color: #fff;
     background-blend-mode: multiply;
     background-size: cover;
     margin: 0 8px 8px 8px;

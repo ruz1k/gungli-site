@@ -5,13 +5,13 @@ import '../styles/global.scss';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
     return (
-        <div>
+        <>
             <Head>
                 <title>Zvuk Gungli</title>
                 <meta name="description" content="Gungli zvuk site." />
             </Head>
             <Component {...pageProps} />
-        </div>
+        </>
     );
 };
 

@@ -13,20 +13,24 @@
     margin: 0 auto;
     white-space: nowrap;
     margin-bottom: 36px;
+    background: rgba(0,0,0,.5);
     & button {
         border: none;
         background: none;
-        color: rgb(190, 190, 190);
+        color: #fff;
         font-size: 16px;
-        transition: all 0.3s ease-in-out;
         border-bottom: 2px solid;
         padding: 8px 36px 16px;
         margin-right: -4px;
         width: 33.3%;
         flex: 0 0 30%;
+        opacity: .5;
+        &:hover {
+            opacity: .9;
+        }
         &.active {
             font-weight: bold;
-            color: white;
+            color: #fff;
             opacity: 1;
         }
     }

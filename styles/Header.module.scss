@@ -46,7 +46,11 @@
                 font-size: 15px;
                 border: none;
                 background: none;
-                color: white;
+                color: #fff;
+                opacity: 0.5;
+                &:hover {
+                    opacity: 1;
+                }
             }
             &:last-child {
                 margin-right: 0;
