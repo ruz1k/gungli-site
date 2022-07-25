@@ -24,7 +24,7 @@ const Contact = React.forwardRef<HTMLDivElement>((_, ref) => {
                         top: '0px',
                     }}
                 >
-                    Казань
+                    {t('Kazan')}
                 </a>
                 <a
                     href="https://yandex.ru/maps/43/kazan/house/ulitsa_sary_sadykovoy_59a/YEAYdwZpQU0HQFtvfXt2cHpqZg==/?ll=49.119879%2C55.771692&utm_medium=mapframe&utm_source=maps&z=16"
@@ -35,7 +35,7 @@ const Contact = React.forwardRef<HTMLDivElement>((_, ref) => {
                         top: '14px',
                     }}
                 >
-                    Улица Сары Садыковой, 59А на карте Казани — Яндекс Карты
+                    {t('street')}
                 </a>
                 <iframe
                     src="https://yandex.ru/map-widget/v1/-/CCUNFBcwGC"
