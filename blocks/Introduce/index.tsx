@@ -15,7 +15,7 @@ const Introduce = () => {
                 <TextLogo />
                 <p>
                     {t('record')}. {t('mixing')}. {t('mastering')}. {t('beats')}
-                    . {t('musicAccompaniment')}.
+                    . {t('creatingInstrumental')}
                 </p>
             </div>
             <div className={styles.introduceLogo}>

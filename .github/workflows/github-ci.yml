@@ -15,7 +15,8 @@ jobs:
                   username: ${{ secrets.USER }}
                   password: ${{ secrets.PASSWORD }}
                   script: |
-                      cd gungli-site
+                      cd www
+                      cd gunglisound.site
                       git checkout develop
                       git pull origin develop
                       npm install
