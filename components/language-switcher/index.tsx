@@ -5,9 +5,12 @@ import cn from 'classnames';
 
 import styles from '../../styles/LanguageSwitcher.module.scss';
 
-const LanguageSwitcher = () => {
-    const [lang, setLang] = useState('');
+interface LanguageSwitcherProps {
+    lang: string;
+    setLang: (lang: string) => void;
+}
 
+const LanguageSwitcher = ({ lang, setLang }: LanguageSwitcherProps) => {
     useEffect(() => setLang(localStorage?.getItem('i18nextLng') || ''), [lang]);
 
     const translateText = (lang: string) => {

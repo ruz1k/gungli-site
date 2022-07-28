@@ -9,6 +9,8 @@ import styles from '../../styles/Header.module.scss';
 import cn from 'classnames';
 
 const Header = () => {
+    const [lang, setLang] = useState('');
+
     const { t } = useTranslation();
     const router = useRouter();
     const redirectTo = (to: string) => {
@@ -37,6 +39,7 @@ const Header = () => {
         <header
             className={cn(styles.appHeader, {
                 [styles.appHeaderOut]: !headerVisible,
+                [styles.appHeaderEng]: lang === 'en',
             })}
         >
             <div className={styles.appHeaderContainer}>
@@ -50,7 +53,7 @@ const Header = () => {
                             {t('contact')}
                         </button>
                     </div>
-                    <LanguageSwitcher />
+                    <LanguageSwitcher lang={lang} setLang={setLang} />
                 </div>
             </div>
         </header>

@@ -9,6 +9,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             <Head>
                 <title>Zvuk Gungli</title>
                 <meta name="description" content="Gungli zvuk site." />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
             </Head>
             <Component {...pageProps} />
         </>

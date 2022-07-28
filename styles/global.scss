@@ -21,6 +21,7 @@ body {
     background-blend-mode: multiply;
     background-size: cover;
     margin: 0 8px 8px 8px;
+    overflow-x: hidden;
 }
 
 h1,
@@ -95,6 +96,6 @@ button {
         width: 100%;
         background: url('../assets/img/logo2.png') fixed center no-repeat;
         background-color: #000;
-        background-size: cover;
+        background-size: 100%;
     }
 }

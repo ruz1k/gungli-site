@@ -1,8 +1,6 @@
-import styles from '../../../../styles/Portfolio.module.scss';
-
 const Portfolio = () => {
     return (
-        <div className={styles.portfolio}>
+        <div>
             <iframe
                 width="100%"
                 height="450"
@@ -10,7 +8,7 @@ const Portfolio = () => {
                 frameBorder="no"
                 allow="autoplay"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1467718249&color=%236b9545&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-            ></iframe>
+            />
             <div
                 style={{
                     fontSize: '10px',
