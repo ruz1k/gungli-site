@@ -1,25 +1,25 @@
-name: CI
+# name: CI
 
-on:
-    push:
-        branches: [master]
+# on:
+#     push:
+#         branches: [master]
 
-jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            - name: executing remote ssh commands to deploy
-              uses: appleboy/ssh-action@master
-              with:
-                  host: ${{ secrets.HOST }}
-                  username: ${{ secrets.USER }}
-                  password: ${{ secrets.PASSWORD }}
-                  script: |
-                      cd www
-                      cd gunglisound.site
-                      git checkout develop
-                      git pull origin develop
-                      npm install
-                      npm run build
-                      pm2 stop server.js
-                      pm2 start server.js
+# jobs:
+#     deploy:
+#         runs-on: ubuntu-latest
+#         steps:
+#             - name: executing remote ssh commands to deploy
+#               uses: appleboy/ssh-action@master
+#               with:
+#                   host: ${{ secrets.HOST }}
+#                   username: ${{ secrets.USER }}
+#                   password: ${{ secrets.PASSWORD }}
+#                   script: |
+#                       cd www
+#                       cd gunglisound.site
+#                       git checkout develop
+#                       git pull origin develop
+#                       npm install
+#                       npm run build
+#                       pm2 stop server.js
+#                       pm2 start server.js
