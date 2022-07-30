@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import i18n from '../../config/i18n';
 
 import cn from 'classnames';
