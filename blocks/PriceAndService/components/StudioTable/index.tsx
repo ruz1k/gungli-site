@@ -24,6 +24,7 @@ const StudioTable = () => {
                 <tr>
                     <td>
                         <span>{t('recordHour')}</span>
+                        <p>{t('recordHourInfoSimple')}</p>
                     </td>
                     <td>{t('recordCost')}</td>
                 </tr>
